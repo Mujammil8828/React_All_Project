@@ -5,7 +5,7 @@ export const App =() =>{
 
   return (
  <section className="container">
-  <h1 className="card-heading">List of best Netfilix Series</h1>
+  <h1 className="card-heading">List of best Netfilix series</h1>
   
    <NetflixSeries />
    {/* <EventHandling/> */}
