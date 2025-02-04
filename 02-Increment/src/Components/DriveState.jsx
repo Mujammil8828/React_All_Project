@@ -32,7 +32,7 @@ export const DriveState = () => {
                         return (
                             <>
                                 <li key={index}>
-                                    {curElem.name} - {curElem.age}  year old
+                                    {curElem.name} - {curElem.age} year old
                                 </li>
 
                                                               
@@ -42,8 +42,8 @@ export const DriveState = () => {
                     })
                 }
             </ul>
-            <p>Total User: {userCount}</p>
-            <p>Averege Age:{averageAge}</p>
+            <p style={{color:"darkblue"}}>  Total User: {userCount}</p>
+            <p style={{color:"red"}}>Averege Age:{averageAge}</p>
         </div>
         
     );
